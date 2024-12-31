@@ -15,6 +15,6 @@ public class Song {
 
     @Override
     public String toString() {
-        return String.format("%s: %d", title, duration);
+        return String.format("%s: %s", title.toUpperCase(), duration);
     }
 }

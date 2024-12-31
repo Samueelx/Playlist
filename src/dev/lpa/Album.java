@@ -51,4 +51,8 @@ public class Album {
         return false;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s by %s", name, artist);
+    }
 }
